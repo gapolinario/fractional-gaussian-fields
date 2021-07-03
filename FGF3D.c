@@ -52,7 +52,7 @@ int main(){
   srand((unsigned) time(&t));
 
 	// Grid size
-	N = (LI) 1<<8; // 1<<N = 2^N
+	N = (LI) 1<<6; // 1<<N = 2^N
 	N2 = (int)(N/2)+1;
 
 	Ltot = 1.;

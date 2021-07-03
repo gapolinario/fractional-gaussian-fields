@@ -98,7 +98,7 @@ int main(){
 	P_H W = IF( |k|^{-H-1/2} F(W) )
 	Where F and IF are continuous Fourier transforms and W is delta-correlated
 	discretizing this, we find
-	P_H W(x) \approx dk sum_j exp(2 pi i k_j x)|k|^{-H-1/2} sum_l w(dy_l) exp(-2 pi i k_j y_l)
+	P_H W(x) \approx dk sum_j exp(2 pi i k_j x)|k_j|^{-H-1/2} sum_l w(dy_l) exp(-2 pi i k_j y_l)
 	which does not need any normalization constant
 	*/
 
